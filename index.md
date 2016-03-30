@@ -4,7 +4,7 @@ layout: default
 
 ## Sync For Science
 
-### Technology for sharing electronic health record data with research
+### Who benefits from S4S?
 
 #### Research Participants
 
