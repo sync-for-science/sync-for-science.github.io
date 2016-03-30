@@ -1,0 +1,9 @@
+# Site settings
+title: Sync For Science
+tag_text: Sync For Science
+description: A technology to help patients share data with research
+baseurl: ""
+font-awesome-include: true
+markdown: kramdown
+
+exclude: ["README.md"]
