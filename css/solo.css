@@ -266,4 +266,7 @@ pre > code {
 .sharing-buttons {
 	width: 100%;
 }
+
+textarea.contact {
+    width: 100%;
 }
