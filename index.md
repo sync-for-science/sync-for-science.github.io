@@ -73,4 +73,5 @@ and to meet EHR Incentive Program requirements for API-based patient access.
             <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
         </div>
     </div>
+    <input type="hidden" name="_next" value="http://syncfor.science" />
 </form>
