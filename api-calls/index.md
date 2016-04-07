@@ -16,7 +16,9 @@ Want to propose a change?
 
 ##### API Call
 
-    GET /Patient/123
+```
+GET /Patient/123
+```
 
 ##### Response
 FHIR `Patient` resource, with extensions for MU race, ethnicity, ± birth sex.
@@ -42,9 +44,9 @@ Going a  bit deeper, we could support
  * by recorded date (perhaps)
 
 ```
-    GET /Condition?patient=123
-                   &_lastUpdated=gt2016-01
-                   &date-recorded=2016
+GET /Condition?patient=123&
+               _lastUpdated=gt2016-01&
+               date-recorded=2016
 ```
 
 ## Medications
