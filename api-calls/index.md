@@ -51,5 +51,22 @@ GET /Condition?patient=123&
 
 ## Medications
 
+Includes all medications that show up "on the medication list" (prescriptions and other recorded meds).
+
+```
+GET /MedicationOrder?patient=123
+GET /MedicationStatement?patient=123
+```
+
 ## Labs
 
+
+```
+GET /Observation?patient=123&
+                 category=laboratory
+
+GET /Observation?patient=123&
+                 category=http://hl7.org/fhir/observation-category|laboratory
+```
+
+Here, discussion about dates is especially relevant.
