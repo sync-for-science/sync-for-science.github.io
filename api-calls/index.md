@@ -33,9 +33,9 @@ This would mean S4S app does "get all", every time.
 
 Concerns?
 
- * ± doesn't leverage 2015 certification "date range" requirements
- *   - app has to request a lot of data every time
- *   + very simple, effectively no optionality.
+ * (±) doesn't leverage 2015 certification "date range" requirements
+ * (-) app has to request a lot of data every time
+ * (+) very simple, effectively no optionality.
 
 Going a  bit deeper, we could support 
 
