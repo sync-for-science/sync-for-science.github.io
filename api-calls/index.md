@@ -41,11 +41,11 @@ Going a  bit deeper, we could support
  * by updated < some time in the past (perhaps)
  * by recorded date (perhaps)
 
-
+```
     GET /Condition?patient=123
                    &_lastUpdated=gt2016-01
                    &date-recorded=2016
-   
+```
 
 ## Medications
 
