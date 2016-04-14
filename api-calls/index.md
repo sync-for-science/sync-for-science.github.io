@@ -21,81 +21,81 @@ Want to propose a change?
 Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
 ##### On *first-connection*, *regular-update*.
-    GET /Patient/{% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Patient/{% raw %}{{patientId}}{% endraw %}
 
 ## Smoking status ([MU CCDS #7](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /Observation?category=social-history&patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Observation?category=social-history&patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /Observation?category=social-history&patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
+    GET /Observation?category=social-history&patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 
 ## Problems ([MU CCDS #8](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /Condition?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Condition?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /Condition?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
+    GET /Condition?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 
 ## Medications and allergies([MU CCDS #9-10](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /MedicationOrder?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
-    GET /MedicationStatement?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
-    GET /MedicationDispense?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
-    GET /MedicationAdministration?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
-    GET /AllergyIntolerance?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /MedicationOrder?patient={% raw %}{{patientId}}{% endraw %}
+    GET /MedicationStatement?patient={% raw %}{{patientId}}{% endraw %}
+    GET /MedicationDispense?patient={% raw %}{{patientId}}{% endraw %}
+    GET /MedicationAdministration?patient={% raw %}{{patientId}}{% endraw %}
+    GET /AllergyIntolerance?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /MedicationOrder?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
-    GET /MedicationStatement?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
-    GET /MedicationDispense?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
-    GET /MedicationAdministration?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
-    GET /AllergyIntolerance?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}}
+    GET /MedicationOrder?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /MedicationStatement?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /MedicationDispense?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /MedicationAdministration?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /AllergyIntolerance?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}}
 
 
 ## Lab results ([MU CCDS #11? and #12](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /Observation?category=laboratory?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Observation?category=laboratory?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /Observation?category=laboratory?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
+    GET /Observation?category=laboratory?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Vital signs ([MU CCDS #13](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /Observation?category=vital-signs?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Observation?category=vital-signs?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /Observation?category=vital-signs?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
+    GET /Observation?category=vital-signs?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Procedures ([MU CCDS #15](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /Procedure?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Procedure?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /Procedure?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}}
+    GET /Procedure?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}}
 
 ## Immunizations ([MU CCDS #17](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
-    GET /Immunization?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /Immunization?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /Immunization?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
+    GET /Immunization?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Patient documents
 
 That is: whatever is available for portal download — not a CCDS requirement
 
 ##### On *first-connection*
-    GET /DocumentReference?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
+    GET /DocumentReference?patient={% raw %}{{patientId}}{% endraw %}
 
 ##### On *regular-update*
-    GET /DocumentReference?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
+    GET /DocumentReference?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
