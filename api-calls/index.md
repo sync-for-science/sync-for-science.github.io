@@ -19,7 +19,7 @@ We'll also refer to two "request times":
  * *first-connection* for broad queries that the app will make once, after first approval, to back-fill historical data
  * *regular-update* for narrow queries the app wil make frequently (e.g. weekly)
 
-(Note: a production-quality app might repeat the "broad" queries on a occasional basis (e.g. yearly) as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
+(Note: a production-quality app might repeat the "broad" queries on an occasional basis — e.g. yearly  — as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
 
 Want to propose a change?
 [edit this page!](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/api-calls/index.md)
