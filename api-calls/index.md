@@ -17,7 +17,7 @@ The examples below refer to the following variables:
 We'll also refer to two "request times":
 
  * *first-connection* for broad queries that the app will make once, after first approval, to back-fill historical data
- * *periodic-update* for narrow queries the app wil make frequently (e.g. weekly)
+ * *periodic-update* for narrow queries the app will make frequently (e.g. weekly)
 
 (Note: a production-quality app might repeat the "broad" queries on an occasional basis — e.g. yearly  — as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
 
