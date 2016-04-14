@@ -40,6 +40,12 @@ A method to empower their health care provider customers, to facilitate
 research, to participate in the development of stronger health care systems,
 and to meet EHR Incentive Program requirements for API-based patient access.
 
+
+### Technical Details
+
+* [S4S FHIR API Calls](./api-calls)
+* [Reference stack and demonstration](https://demo.syncfor.science/)
+
 ### In the News
 
  * [healthit.gov](https://www.healthit.gov/buzz-blog/health-innovation/nih-and-onc-launch-the-sync-for-science-pilot/)
