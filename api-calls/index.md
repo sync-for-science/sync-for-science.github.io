@@ -17,7 +17,7 @@ The examples below refer to the following variables:
 We'll also refer to two "request times":
 
  * *first-connection* for broad queries that the app will make once, after first approval, to back-fill historical data
- * *regular-update* for narrow queries the app wil make frequently (e.g. weekly)
+ * *periodic-update* for narrow queries the app wil make frequently (e.g. weekly)
 
 (Note: a production-quality app might repeat the "broad" queries on an occasional basis — e.g. yearly  — as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
 
@@ -27,7 +27,7 @@ Want to propose a change?
 ## Patient demographics ([MU CCDS #1-6](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
-##### On *first-connection*, *regular-update*.
+##### On *first-connection*, *periodic-update*.
     GET /Patient/{% raw %}{{patientId}}{% endraw %}
 
 ## Smoking status ([MU CCDS #7](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
@@ -35,7 +35,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*
     GET /Observation?category=social-history&patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /Observation?category=social-history&patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 
@@ -44,7 +44,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*
     GET /Condition?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /Condition?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 
@@ -57,7 +57,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
     GET /MedicationAdministration?patient={% raw %}{{patientId}}{% endraw %}
     GET /AllergyIntolerance?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /MedicationOrder?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
     GET /MedicationStatement?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
     GET /MedicationDispense?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
@@ -70,7 +70,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*
     GET /Observation?category=laboratory?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /Observation?category=laboratory?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Vital signs ([MU CCDS #13](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
@@ -78,7 +78,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*
     GET /Observation?category=vital-signs?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /Observation?category=vital-signs?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Procedures ([MU CCDS #15](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
@@ -86,7 +86,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*
     GET /Procedure?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /Procedure?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}}
 
 ## Immunizations ([MU CCDS #17](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
@@ -94,7 +94,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*
     GET /Immunization?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /Immunization?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Patient documents
@@ -104,5 +104,5 @@ That is: whatever is available for portal download — not a CCDS requirement
 ##### On *first-connection*
     GET /DocumentReference?patient={% raw %}{{patientId}}{% endraw %}
 
-##### On *regular-update*
+##### On *periodic-update*
     GET /DocumentReference?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
