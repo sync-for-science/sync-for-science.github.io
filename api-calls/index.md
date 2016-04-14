@@ -82,7 +82,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *regular-update*
     GET /Procedure?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}}
 
-## Immunizations ([MU CCDS 17](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+## Immunizations ([MU CCDS #17](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
     GET /Immunization?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
