@@ -4,7 +4,9 @@ layout: page
 
 # S4S FHIR API Calls
 
-In the list of API calls below, you'll see each data type annotated with its [MU Common Clinical Data Set labels](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf) (#1-21). Note that we're currently not covering elements #16 (care team members), #18 (unique device identifiers), #19 (assessment and plan of treatment), #20 (goals), #21 (health concerns) — which we believe is a reasonable scope limitation for the S4S pilots. the [Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) will help define these elements in more depth, and we'll build on that effort when additional implementation guidance is available.
+In the list of API calls below, you'll see each data type annotated with its [MU Common Clinical Data Set labels](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf) (#1-21). Note that we're currently not covering elements #16 (care team members), #18 (unique device identifiers), #19 (assessment and plan of treatment), #20 (goals), #21 (health concerns) — which we believe is a reasonable scope limitation for the S4S pilots.
+
+The [Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) will help define these elements in more depth, and we'll build on that effort when additional implementation guidance is available.
 
 The examples below refer to the following variables:
 
@@ -12,7 +14,13 @@ The examples below refer to the following variables:
 
  * `:lastCheck` indiclates a FHIR `instant`, with millisecond-level precision including a timezone. For example, `2016-04-01T02:52:32.000Z`
 
-We'll also refer to two "request times": *first-connection* for broad queries that the app will make once, after first approval, to back-fill historical data, and *regular-update* for narrow queries the app wil make frequently (e.g. weekly). (Note: a production-quality app might repeat the "broad" queries on a occasional basis (e.g. yearly) as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
+We'll also refer to two "request times":
+
+*first-connection* for broad queries that the app will make once, after first approval, to back-fill historical data
+and
+*regular-update* for narrow queries the app wil make frequently (e.g. weekly).
+
+(Note: a production-quality app might repeat the "broad" queries on a occasional basis (e.g. yearly) as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
 
 Want to propose a change?
 [edit this page!](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/api-calls/index.md)
