@@ -2,9 +2,9 @@
 layout: page
 ---
 
-# FHIR API Calls
+# S4S FHIR API Calls
 
-In the list of API calls below, you'll see each data type annotated with its [MU Common Clinical Data Set labels](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf) (1-21). Note that we're currently not covering elements 16 (care team members), 18 (unique device identifiers), 19 (assessment and plan of treatment), 20 (goals), 21 (health concerns) — which we believe is a reasonable scope limitation for the S4S pilots. the [Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) will help define these elements in more depth, and we'll build on that effort when additional implementation guidance is available.
+In the list of API calls below, you'll see each data type annotated with its [MU Common Clinical Data Set labels](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf) (#1-21). Note that we're currently not covering elements #16 (care team members), #18 (unique device identifiers), #19 (assessment and plan of treatment), #20 (goals), #21 (health concerns) — which we believe is a reasonable scope limitation for the S4S pilots. the [Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) will help define these elements in more depth, and we'll build on that effort when additional implementation guidance is available.
 
 The examples below refer to the following variables:
 
