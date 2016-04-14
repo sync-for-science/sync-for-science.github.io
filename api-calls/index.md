@@ -48,7 +48,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
     GET /Condition?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 
-## Medications and allergies([MU CCDS #9-10](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+## Medications and allergies ([MU CCDS #9-10](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
     GET /MedicationOrder?patient={% raw %}{{patientId}}{% endraw %}
