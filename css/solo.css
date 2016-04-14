@@ -96,11 +96,6 @@ h3 {
   }
 }
 
-h4, h5, h6 {
-  margin: 1.5rem -1rem 1.5rem -1rem;
-  font-size: 1.5rem;
-}
-
 p, ul, ol, dl, table, pre, blockquote {
   margin-top: 0;
   margin-bottom: 1.5rem;
