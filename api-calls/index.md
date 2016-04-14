@@ -33,7 +33,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
     GET /Observation?category=social-history&patient={{patientId}}
 
 ##### On *regular-update*
-    GET /Observation?category=social-history&patient={{patientId}&_lastUpdated=gt{{lastCheck}}}
+    GET /Observation?category=social-history&patient={{patientId}&_lastUpdated=gt{{lastCheck}}
 
 
 #### Problems ([MU CCDS 8](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
