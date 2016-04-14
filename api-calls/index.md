@@ -24,9 +24,9 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
 ##### On *first-connection*, *regular-update*.
     GET /Patient/{% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
-    
-    
+
 #### Smoking status ([MU CCDS #7](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+
 ##### On *first-connection*
     GET /Observation?category=social-history&patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
@@ -35,6 +35,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
 
 #### Problems ([MU CCDS #8](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+
 ##### On *first-connection*
     GET /Condition?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
@@ -60,13 +61,15 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
 
 #### Lab results ([MU CCDS #11? and #12](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+
 ##### On *first-connection*
     GET /Observation?category=laboratory?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
 ##### On *regular-update*
     GET /Observation?category=laboratory?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
-    
+
 #### Vital signs ([MU CCDS #13](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+
 ##### On *first-connection*
     GET /Observation?category=vital-signs?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
@@ -74,6 +77,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
     GET /Observation?category=vital-signs?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
 
 #### Procedures ([MU CCDS #15](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+
 ##### On *first-connection*
     GET /Procedure?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
@@ -81,6 +85,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
     GET /Procedure?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}}
 
 #### Immunizations ([MU CCDS 17](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
+
 ##### On *first-connection*
     GET /Immunization?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
@@ -88,11 +93,9 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
     GET /Immunization?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
 
 #### Patient documents (i.e. whatever is available for portal download — not a CCDS requirement)
+
 ##### On *first-connection*
     GET /DocumentReference?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}
 
 ##### On *regular-update*
     GET /DocumentReference?patient={% raw %}{{{% endraw %}patientId{% raw %}}}{% endraw %}&_lastUpdated=gt{{lastCheck}}
-
-
-
