@@ -41,17 +41,17 @@ research, to participate in the development of stronger health care systems,
 and to meet EHR Incentive Program requirements for API-based patient access.
 
 
-### Technical Details
+### See also
 
 * [S4S FHIR API Calls](./api-calls)
 * [Reference stack and demonstration](https://demo.syncfor.science/)
+* [Edit this page](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/index.md)
 
 ### In the News
 
  * [healthit.gov](https://www.healthit.gov/buzz-blog/health-innovation/nih-and-onc-launch-the-sync-for-science-pilot/)
  * [healthcareitnews.com](http://www.healthcareitnews.com/news/nih-and-onc-announce-sync-science-pilot-enable-patients-donate-data-precision-medicine)
  * [hitconsultant.net](http://hitconsultant.net/2016/03/25/nih-onc-launch-sync-science-5-things-know/)
- * [wadeschulz.com](http://www.wadeschulz.com/2016/02/sync-for-science-s4s/)
 
 ### Contact
 
