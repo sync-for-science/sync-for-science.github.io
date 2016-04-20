@@ -30,6 +30,89 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ##### On *first-connection*, *periodic-update*.
     GET /Patient/{% raw %}{{patientId}}{% endraw %}
 
+###### Request
+
+```
+curl -X GET "https://portal.demo.syncfor.science/api/fhir/Patient/smart-1288992"
+```
+
+###### Response
+
+```
+{
+    "resourceType":"Patient",
+    "id":"smart-1288992",
+    "meta":{
+        "versionId":"1",
+        "lastUpdated":"2016-04-17T04:25:53.405+00:00",
+        "security":[
+            {
+                "system":"http://smarthealthit.org/security/users",
+                "code":"Patient/smart-1288992"
+            },
+            {
+                "system":"http://smarthealthit.org/security/categories",
+                "code":"patient"
+            }
+        ]
+    },
+    "text":{
+        "status":"generated",
+        "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">        <p>Daniel Adams</p>      </div>"
+    },
+    "identifier":[
+        {
+            "use":"usual",
+            "type":{
+                "coding":[
+                    {
+                        "system":"http://hl7.org/fhir/v2/0203",
+                        "code":"MR",
+                        "display":"Medical record number"
+                    }
+                ],
+                "text":"Medical record number"
+            },
+            "system":"http://hospital.smarthealthit.org",
+            "value":"1288992"
+        }
+    ],
+    "active":true,
+    "name":[
+        {
+            "use":"official",
+            "family":[
+                "Adams"
+            ],
+            "given":[
+                "Daniel",
+                "X."
+            ]
+        }
+    ],
+    "telecom":[
+        {
+            "system":"email",
+            "value":"daniel.adams@example.com"
+        }
+    ],
+    "gender":"male",
+    "birthDate":"1925-12-23",
+    "address":[
+        {
+            "use":"home",
+            "line":[
+                "1 Hill AveApt 14"
+            ],
+            "city":"Tulsa",
+            "state":"OK",
+            "postalCode":"74117",
+            "country":"USA"
+        }
+    ]
+}
+```
+
 ## Smoking status ([MU CCDS #7](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
 ##### On *first-connection*
