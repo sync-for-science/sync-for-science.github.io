@@ -47,11 +47,12 @@ and to meet EHR Incentive Program requirements for API-based patient access.
 * [Reference stack and demonstration](https://demo.syncfor.science/)
 * [Edit this page](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/index.md)
 
-### In the News
+### News, Press, Blogs
 
- * [healthit.gov](https://www.healthit.gov/buzz-blog/health-innovation/nih-and-onc-launch-the-sync-for-science-pilot/)
- * [healthcareitnews.com](http://www.healthcareitnews.com/news/nih-and-onc-announce-sync-science-pilot-enable-patients-donate-data-precision-medicine)
- * [hitconsultant.net](http://hitconsultant.net/2016/03/25/nih-onc-launch-sync-science-5-things-know/)
+* [President Obama gives a shout-out](https://youtu.be/0FeQHlpIIXk)
+ * [Blog post at healthit.gov](https://www.healthit.gov/buzz-blog/health-innovation/nih-and-onc-launch-the-sync-for-science-pilot/)
+ * [Article at healthcareitnews.com](http://www.healthcareitnews.com/news/nih-and-onc-announce-sync-science-pilot-enable-patients-donate-data-precision-medicine)
+ * [Summary at hitconsultant.net](http://hitconsultant.net/2016/03/25/nih-onc-launch-sync-science-5-things-know/)
 
 ### Contact
 
