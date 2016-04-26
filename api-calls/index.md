@@ -209,12 +209,12 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=s
 ```
 
 ##### On *periodic-update*
-    GET /Observation?category=social-history&patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
+    GET /Observation?category=social-history&patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=social-history&patient=smart-1288992&_lastUpdated=>2016-04-16"
+curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=social-history&patient=smart-1288992&_lastUpdated=gt2016-04-16"
 ```
 
 ###### Response
@@ -765,12 +765,12 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smar
 ```
 
 ##### On *periodic-update*
-    GET /Condition?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
+    GET /Condition?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smart-1288992&_lastUpdated=>2016-04-17T04:00:00"
+curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smart-1288992&_lastUpdated=gt2016-04-17T04:00:00"
 ```
 
 ###### Response
@@ -1554,11 +1554,11 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/AllergyIntolerance?pat
 ```
 
 ##### On *periodic-update*
-    GET /MedicationOrder?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
-    GET /MedicationStatement?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
-    GET /MedicationDispense?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
-    GET /MedicationAdministration?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
-    GET /AllergyIntolerance?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}}
+    GET /MedicationOrder?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /MedicationStatement?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /MedicationDispense?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /MedicationAdministration?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /AllergyIntolerance?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}}
 
 
 ## Lab results ([MU CCDS #11? and #12](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
@@ -2019,7 +2019,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=l
 ```
 
 ##### On *periodic-update*
-    GET /Observation?category=laboratory?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
+    GET /Observation?category=laboratory?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Vital signs ([MU CCDS #13](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
@@ -2395,7 +2395,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=v
 ```
 
 ##### On *periodic-update*
-    GET /Observation?category=vital-signs?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
+    GET /Observation?category=vital-signs?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Procedures ([MU CCDS #15](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
@@ -2414,7 +2414,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Procedure?patient=smar
 ```
 
 ##### On *periodic-update*
-    GET /Procedure?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}}
+    GET /Procedure?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}}
 
 ## Immunizations ([MU CCDS #17](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 
@@ -2433,7 +2433,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Immunization?patient=s
 ```
 
 ##### On *periodic-update*
-    GET /Immunization?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
+    GET /Immunization?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ## Patient documents
 
@@ -2454,4 +2454,4 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/DocumentReference?pati
 ```
 
 ##### On *periodic-update*
-    GET /DocumentReference?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=>{% raw %}{{lastCheck}}{% endraw %}
+    GET /DocumentReference?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
