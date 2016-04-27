@@ -24,6 +24,12 @@ We'll also refer to two "request times":
 Want to propose a change?
 [edit this page!](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/api-calls/index.md)
 
+## Server metadata
+
+Return a FHIR conformance statement with [SMART extensions for OAuth](http://docs.smarthealthit.org/authorization/conformance-statement/)
+
+    GET /metadata
+
 ## Patient demographics ([MU CCDS #1-6](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
