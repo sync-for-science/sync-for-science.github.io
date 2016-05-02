@@ -8,7 +8,7 @@ layout: default
 
 S4S is a collaboration among researchers (Harvard Medical School Department of
 Biomedical Informatics), electronic health record vendors (Allscripts,
-athenahealth, Cerner, drchrono, Epic, McKesson), and the United States federal
+athenahealth, Cerner, drchrono, eClinicalWorks, Epic, McKesson), and the United States federal
 government (Office of the National Coordinator for Health IT, Office of Science
 and Technology Policy, and National Institutes of Health).
 
