@@ -30,6 +30,16 @@ Return a FHIR conformance statement with [SMART extensions for OAuth](http://doc
 
     GET /metadata
 
+## Authorization expectations
+
+Sync for Science (like Argonaut) uses the OAuth2-based [SMART on FHIR authorization specification](http://docs.smarthealthit.org/authorization). But we don't need all the moving parts. In particular, in Sync for Science we can get away with a minimum of:
+
+1. "confidential clients", meaning that apps get assigned a `client_id` and `client_secret` to authenticate to EHRs.The general SMART and Argonaut specs also require support for "public clients", but it's not strictly a requirement in S4S.
+
+2.  "standalone launch" flow, meaning that the patient (research participant) can begin by interacting with the PMI app, and from there, can launch into an "connect to my EHR" workflow. OfThe general SMART and Argonaut specs also require support for the "EHR launch flow" (where apps launch from an EHR or portal), but it's not strictly a requirement in S4S.
+
+We also **do not require support for Single Sign-on via OpenID Connect** in S4S (though again, it's part of SMART and Argonaut, and we encourage implementers to support it).
+
 ## Patient demographics ([MU CCDS #1-6](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
