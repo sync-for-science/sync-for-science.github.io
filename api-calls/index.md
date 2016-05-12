@@ -10,9 +10,9 @@ The [Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) wi
 
 The examples below refer to the following variables:
 
- * `{% raw %}{{patientId}}{% endraw %}` indicates the FHIR `id` of the `Patient` in context. For example, `123`.
+ * `{{patientId}}` indicates the FHIR `id` of the `Patient` in context. For example, `123`.
 
- * `{% raw %}{{lastCheck}}{% endraw %}` indiclates a FHIR `instant`, with millisecond-level precision including a timezone. For example, `2016-04-01T02:52:32.000Z`
+ * `{% raw %}{{{% endraw %}lastCheck{% raw %}}}{% endraw %}` indiclates a FHIR `instant`, with millisecond-level precision including a timezone. For example, `2016-04-01T02:52:32.000Z`
 
 We'll also refer to two "request times":
 
