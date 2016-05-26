@@ -1371,6 +1371,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationStatement?pa
 ###### Response
 
 ```
+No example available.
 ```
 
     GET /MedicationDispense?patient={% raw %}{{patientId}}{% endraw %}
@@ -1478,6 +1479,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationAdministrati
 ###### Response
 
 ```
+No example available.
 ```
 
     GET /AllergyIntolerance?patient={% raw %}{{patientId}}{% endraw %}
@@ -2430,6 +2432,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Procedure?patient=smar
 ###### Response
 
 ```
+No example available.
 ```
 
 ##### On *periodic-update*
@@ -2449,6 +2452,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Immunization?patient=s
 ###### Response
 
 ```
+No example available.
 ```
 
 ##### On *periodic-update*
@@ -2470,6 +2474,7 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/DocumentReference?pati
 ###### Response
 
 ```
+No example available.
 ```
 
 ##### On *periodic-update*
