@@ -52,7 +52,8 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Patient/smart-1288992"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Patient/smart-1288992"
 ```
 
 ###### Response
@@ -140,7 +141,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Patient/smart-1288992"
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=social-history&patient=smart-1288992"
+curl -H "Accept: application/json+fhir" \
+ "https://portal.demo.syncfor.science/api/fhir/Observation?category=social-history&patient=smart-1288992"
 ```
 
 ###### Response
@@ -233,7 +235,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=s
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=social-history&patient=smart-1288992&_lastUpdated=gt2016-04-16"
+curl -H "Accept: application/json+fhir" \
+ "https://portal.demo.syncfor.science/api/fhir/Observation?category=social-history&patient=smart-1288992&_lastUpdated=gt2016-04-16"
 ```
 
 ###### Response
@@ -328,7 +331,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=s
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smart-1288992"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smart-1288992"
 ```
 
 ###### Response
@@ -789,7 +793,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smar
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smart-1288992&_lastUpdated=gt2016-04-17T04:00:00"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smart-1288992&_lastUpdated=gt2016-04-17T04:00:00"
 ```
 
 ###### Response
@@ -1253,7 +1258,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Condition?patient=smar
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationOrder?patient=smart-1288992&_count=1"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/MedicationOrder?patient=smart-1288992&_count=1"
 ```
 
 ###### Response
@@ -1365,7 +1371,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationOrder?patien
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationStatement?patient=smart-1288992&_count=1"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/MedicationStatement?patient=smart-1288992&_count=1"
 ```
 
 ###### Response
@@ -1379,7 +1386,8 @@ No example available.
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationDispense?patient=smart-1288992&_count=1"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/MedicationDispense?patient=smart-1288992&_count=1"
 ```
 
 ###### Response
@@ -1473,7 +1481,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationDispense?pat
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/MedicationAdministration?patient=smart-1288992&_count=1"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/MedicationAdministration?patient=smart-1288992&_count=1"
 ```
 
 ###### Response
@@ -1487,7 +1496,8 @@ No example available.
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/AllergyIntolerance?patient=smart-1288992&_count=1"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/AllergyIntolerance?patient=smart-1288992&_count=1"
 ```
 
 ###### Response
@@ -1590,7 +1600,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/AllergyIntolerance?pat
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=laboratory&patient=smart-1288992&_count=5"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Observation?category=laboratory&patient=smart-1288992&_count=5"
 ```
 
 ###### Response
@@ -2050,7 +2061,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=l
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=vital-signs&patient=smart-1288992&_count=5"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Observation?category=vital-signs&patient=smart-1288992&_count=5"
 ```
 
 ###### Response
@@ -2426,7 +2438,8 @@ curl -X GET "https://portal.demo.syncfor.science/api/fhir/Observation?category=v
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Procedure?patient=smart-1288992"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Procedure?patient=smart-1288992"
 ```
 
 ###### Response
@@ -2446,7 +2459,8 @@ No example available.
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/Immunization?patient=smart-1288992"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/Immunization?patient=smart-1288992"
 ```
 
 ###### Response
@@ -2468,7 +2482,8 @@ That is: whatever is available for portal download — not a CCDS requirement
 ###### Request
 
 ```
-curl -X GET "https://portal.demo.syncfor.science/api/fhir/DocumentReference?patient=smart-1288992"
+curl -H "Accept: application/json+fhir" \
+  "https://portal.demo.syncfor.science/api/fhir/DocumentReference?patient=smart-1288992"
 ```
 
 ###### Response
