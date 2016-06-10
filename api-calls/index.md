@@ -45,6 +45,8 @@ Return a FHIR conformance statement with [SMART extensions for OAuth](http://doc
 
 ## Patient demographics ([MU CCDS #1-6](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf))
 Includes: name, birth sex, birthdate, race, ethnicty, preferred language
+Argonaut Guide: http://argonautwiki.hl7.org/index.php?title=Patient
+FHIR DSTU2 Resource: http://hl7.org/fhir/patient.html
 
 ##### On *first-connection*, *periodic-update*.
     GET /Patient/{% raw %}{{patientId}}{% endraw %}
@@ -162,7 +164,7 @@ curl -H "Accept: application/json+fhir" \
             "url":"https://portal.demo.syncfor.science/api/fhir/Observation?_security=public%2Cpatient%2Cmedications%2Callergies%2Cimmunizations%2Cproblems%2Cprocedures%2Cvital-signs%2Claboratory%2Csmoking&_security=public%2CPatient%2Fsmart-1288992&category=social-history&patient=smart-1288992"
         }
     ],
-    "entry":[
+    "entry":[
         {
             "fullUrl":"https://portal.demo.syncfor.science/api/fhir/Observation/smart-observation-21-smokingstatus",
             "resource":{
