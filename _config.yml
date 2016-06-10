@@ -5,6 +5,4 @@ description: technology to help patients share data with research
 baseurl: ""
 font-awesome-include: true
 markdown: kramdown
-kramdown:
-  autolink: true
 exclude: ["README.md"]
