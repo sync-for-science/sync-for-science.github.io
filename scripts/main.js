@@ -54,7 +54,7 @@ $(function () {
       $.ajax(parseHttpRequest($el.text()))
       .done(function (data) {
         // Render it all pretty
-        var $code = $('<code>' + JSON.stringify(data, null, 4) + '</code>');
+        var $code = $('<code />').text(JSON.stringify(data, null, 4));
 
         $canvas.html($code);
         hljs.highlightBlock($code.get(0));
