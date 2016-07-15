@@ -1,0 +1,18 @@
+/* HTTP */
+.hljs .hljs-keyword {
+    font-weight: bold;
+}
+.hljs .hljs-attribute {
+    font-weight: bold;
+}
+
+/* JSON */
+.hljs .hljs-attr {
+    color: #2f6f9f;
+}
+.hljs .hljs-string {
+    color: #CC3300;
+}
+.hljs .hljs-literal {
+    color: #FF6600;
+}
