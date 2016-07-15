@@ -191,7 +191,7 @@ Accept: application/json+fhir
 ###### Request
 
 ```HTTP
-GET /api/fhir/MedicationDispense?patient=smart-1288992&_count=1 HTTP/1.1
+GET /api/open-fhir/MedicationDispense?patient=smart-1288992&_count=1 HTTP/1.1
 Host: portal.demo.syncfor.science
 Accept: application/json+fhir
 ```
