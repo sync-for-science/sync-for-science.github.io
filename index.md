@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Sync for Science™
+## Sync for Science<sup>TM</sup>
 
 ### Who is S4S?
 
