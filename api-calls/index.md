@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# S4S<sup>TM</sup> FHIR API Calls
+# S4S FHIR API Calls
 
 In the list of API calls below, you'll see each data type annotated with its [MU Common Clinical Data Set labels](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf) (#1-21). Note that we're currently not covering elements #16 (care team members), #18 (unique device identifiers), #19 (assessment and plan of treatment), #20 (goals) — which we believe is a reasonable scope limitation for the S4S pilots.
 
@@ -26,7 +26,7 @@ Want to propose a change?
 
 ## Authorization expectations
 
-Sync for Science (like Argonaut) uses the OAuth2-based [SMART on FHIR authorization specification](http://docs.smarthealthit.org/authorization). But we don't need all the moving parts. In particular, in Sync for Science we can get away with a minimum of:
+Sync for Science<sup>TM</sup> (like Argonaut) uses the OAuth2-based [SMART on FHIR authorization specification](http://docs.smarthealthit.org/authorization). But we don't need all the moving parts. In particular, in Sync for Science we can get away with a minimum of:
 
 1. "**confidential clients**", meaning that apps get assigned a `client_id` and `client_secret` to authenticate to EHRs.The general SMART and Argonaut specs also require support for "public clients", but it's not strictly a requirement in S4S.
 
