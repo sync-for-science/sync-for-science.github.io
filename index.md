@@ -45,6 +45,7 @@ and to meet EHR Incentive Program requirements for API-based patient access.
 
 * [S4S FHIR API Calls](./api-calls)
 * [Reference stack and demonstration](https://demo.syncfor.science/)
+* [Test Suite](https://tests.demo.syncfor.science/)
 * [Edit this page](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/index.md)
 
 ### News, Press, Blogs
