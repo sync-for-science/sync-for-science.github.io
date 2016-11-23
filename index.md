@@ -41,7 +41,8 @@ research, to participate in the development of stronger health care systems,
 and to meet EHR Incentive Program requirements for API-based patient access.
 
 ### Pilot Program
- * [Provider Organization FAQs (Preview)](https://docs.google.com/document/d/1Xv3z0Ls5nIozjN-ree-kwZNJxnaiVztMmqZgC_5M-cQ)
+* [Provider Organization FAQs (Preview)](https://docs.google.com/document/d/1Xv3z0Ls5nIozjN-ree-kwZNJxnaiVztMmqZgC_5M-cQ)
+* [Participant FAQs (Preview)](https://docs.google.com/document/d/1DBC7jbEcnENqDFJbQbeFQ6kfEvnmzgszg_6xiru6skI)
 * [Video](https://drive.google.com/file/d/0BzDLBlJ9IyUCWEM4Y1dfZmhQNXM/view?usp=sharing) + [Slides](http://bit.ly/s4s-pilot-practices-webinar) from S4S Pilot Practices Webinar
 
 ### See also
