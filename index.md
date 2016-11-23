@@ -40,13 +40,15 @@ A method to empower their health care provider customers, to facilitate
 research, to participate in the development of stronger health care systems,
 and to meet EHR Incentive Program requirements for API-based patient access.
 
+### Pilot Program
+ * [Provider Organization FAQs (Preview)](https://docs.google.com/document/d/1Xv3z0Ls5nIozjN-ree-kwZNJxnaiVztMmqZgC_5M-cQ)
+* [Video](https://drive.google.com/file/d/0BzDLBlJ9IyUCWEM4Y1dfZmhQNXM/view?usp=sharing) + [Slides](http://bit.ly/s4s-pilot-practices-webinar) from S4S Pilot Practices Webinar
 
 ### See also
 
 * [S4S FHIR API Calls](./api-calls)
 * [Reference stack and demonstration](https://demo.syncfor.science/)
 * [Test Suite](https://tests.demo.syncfor.science/)
-* [Video](https://drive.google.com/file/d/0BzDLBlJ9IyUCWEM4Y1dfZmhQNXM/view?usp=sharing) + [Slides](http://bit.ly/s4s-pilot-practices-webinar) from S4S Pilot Practices Webinar
 * [Edit this page](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/index.md)
 
 
