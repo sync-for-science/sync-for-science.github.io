@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Sync for Science<sup>TM</sup>
+## Sync for Science
 
 ### Who is S4S?
 
@@ -88,3 +88,5 @@ and to meet EHR Incentive Program requirements for API-based patient access.
     </div>
     <input type="hidden" name="_next" value="http://syncfor.science/thanks" />
 </form>
+
+<em>Sync for Science and S4S are service marks of the U.S. Department of Health and Human Services</em>
