@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<img class="logo" src="s4s-logo.png">
-
 ## Sync for Science
 
 ### What is S4S?
