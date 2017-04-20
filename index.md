@@ -4,7 +4,7 @@ layout: default
 
 ## Sync for Science
 
-### Who is S4S?
+### What is S4S?
 
 S4S is a collaboration among researchers (Harvard Medical School Department of
 Biomedical Informatics), electronic health record vendors (Allscripts,
@@ -91,4 +91,4 @@ and to meet EHR Incentive Program requirements for API-based patient access.
     <input type="hidden" name="_next" value="http://syncfor.science/thanks" />
 </form>
 
-<em>Sync for Science and S4S are service marks of the U.S. Department of Health and Human Services</em>
+<em>Sync for Science and S4S are trademarks of the U.S. Department of Health and Human Services</em>
