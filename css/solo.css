@@ -265,3 +265,8 @@ pre > code {
 textarea.contact {
     width: 100%;
 }
+
+img.logo {
+  max-height: 200px;
+  width: auto;
+}
