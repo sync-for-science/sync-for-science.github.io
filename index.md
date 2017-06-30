@@ -43,8 +43,10 @@ and to meet EHR Incentive Program requirements for API-based patient access.
 ### Pilot Program
 * [Provider Organization FAQs (Preview)](http://bit.ly/s4s-provider-faq-preview)
 * [Participant FAQs (Preview)](http://bit.ly/s4s-participant-faq-preview)
-* [Video](http://bit.ly/s4s-pilot-webinar-01) + [Slides](http://bit.ly/s4s-pilot-practices-webinar) from S4S Pilot Practices Webinar #1 (Focused on Background)
-* [Video](http://bit.ly/s4s-pilot-webinar-02) + [Slides](http://bit.ly/s4s-pilot-launch-webinar) from S4S Pilot Practices Webinar #2 (Focused on Launch)
+* [Video](http://bit.ly/s4s-pilot-webinar-01) + [Slides](http://bit.ly/s4s-pilot-practices-webinar) from S4S Pilot Practices Webinar #1 (Background)
+* [Video](http://bit.ly/s4s-pilot-webinar-02) + [Slides](http://bit.ly/s4s-pilot-launch-webinar) from S4S Pilot Practices Webinar #2 (Launch Planning)
+* [Video](http://bit.ly/s4s-pilots-webinar-03-video) + [Slides](http://bit.ly/s4s-pilots-webinar-03-slides) from S4S Pilot Practices Webinar #3 (Launch Updates)
+http://bit.ly/s4s-pilots-webinar-03
 
 
 ### See also
