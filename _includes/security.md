@@ -13,7 +13,7 @@ We'll also refer to two "request times":
 (Note: a production-quality app might repeat the "broad" queries on an occasional basis — e.g. yearly  — as a sanity check, and to discovery any data that may have fallen _out_ of the record.)
 
 Want to propose a change?
-[edit this page!](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/api-calls/index.md)
+[edit this page!](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/)
 
 ## Authorization expectations: SMART on FHIR OAuth2
 
