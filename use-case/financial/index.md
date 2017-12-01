@@ -24,7 +24,7 @@ Includes: name, birth sex, birthdate, race, ethnicty, preferred language
 
 ```HTTP
 GET /api/open-fhir/Patient/smart-1288992 HTTP/1.1
-Host: portal.demo.syncfor.science
+Host: portal-stu3.demo.syncfor.science
 Accept: application/json+fhir
 ```
 
@@ -37,13 +37,13 @@ Accept: application/json+fhir
 Includes: details about a patient's insurance coverage (TODO: include details from BB on FHIR profiles)
 
 ##### On *first-connection*
-    GET /Coverage?patient={% raw %}{{patientId}}{% endraw %}
+    GET /Coverage?beneficiary={% raw %}{{patientId}}{% endraw %}
 
 ###### Request
 
 ```HTTP
-GET /api/open-fhir/Coverage?patient=smart-1288992 HTTP/1.1
-Host: portal.demo.syncfor.science
+GET /api/open-fhir/Coverage?beneficiary=smart-1288992 HTTP/1.1
+Host: portal-stu3.demo.syncfor.science
 Accept: application/json+fhir
 ```
 
@@ -53,13 +53,13 @@ Accept: application/json+fhir
 ```
 
 ##### On *periodic-update*
-    GET /Coverage?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
+    GET /Coverage?beneficiary={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
 
 ###### Request
 
 ```HTTP
-GET /api/open-fhir/Coverage?patient=smart-1288992&_lastUpdated=gt2016-04-16 HTTP/1.1
-Host: portal.demo.syncfor.science
+GET /api/open-fhir/Coverage?beneficiary=smart-1288992&_lastUpdated=gt2016-04-16 HTTP/1.1
+Host: portal-stu3.demo.syncfor.science
 Accept: application/json+fhir
 ```
 
@@ -78,7 +78,7 @@ Includes: details about benefits that a patient has received through their insur
 
 ```HTTP
 GET /api/open-fhir/ExplanationOfBenefit?patient=smart-1288992 HTTP/1.1
-Host: portal.demo.syncfor.science
+Host: portal-stu3.demo.syncfor.science
 Accept: application/json+fhir
 ```
 
@@ -94,7 +94,7 @@ Accept: application/json+fhir
 
 ```HTTP
 GET /api/open-fhir/ExplanationOfBenefit?patient=smart-1288992&_lastUpdated=gt2016-04-16 HTTP/1.1
-Host: portal.demo.syncfor.science
+Host: portal-stu3.demo.syncfor.science
 Accept: application/json+fhir
 ```
 
