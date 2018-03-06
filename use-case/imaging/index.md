@@ -57,40 +57,6 @@ Accept: application/json+fhir
 ```JSON
 ```
 
-## Explanation Of Benefit
-Includes: details about benefits that a patient has received through their insurance coverage (TODO: include details from BB on FHIR profiles).
-
-##### On *first-connection*
-    GET /ExplanationOfBenefit?patient={% raw %}{{patientId}}{% endraw %}
-
-###### Request
-
-```HTTP
-GET /api/open-fhir/ExplanationOfBenefit?patient=smart-1288992 HTTP/1.1
-Host: portal.demo.syncfor.science
-Accept: application/json+fhir
-```
-
-###### Response
-
-```JSON
-```
-
-##### On *periodic-update*
-    GET /ExplanationOfBenefit?patient={% raw %}{{patientId}}{% endraw %}&_lastUpdated=gt{% raw %}{{lastCheck}}{% endraw %}
-
-###### Request
-
-```HTTP
-GET /api/open-fhir/ExplanationOfBenefit?patient=smart-1288992&_lastUpdated=gt2016-04-16 HTTP/1.1
-Host: portal.demo.syncfor.science
-Accept: application/json+fhir
-```
-
-###### Response
-
-```JSON
-```
 
 Each `ImagingStudy` in the response bundle will include an `ImagingStudy.uid` value and an `ImagingStudy.endpoint` reference. These values can be used to retrieve full DICOM data for the study as follows:
 
