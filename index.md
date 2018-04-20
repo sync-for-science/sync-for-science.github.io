@@ -27,7 +27,7 @@ and immunizations, potentially increasing participation in studies. Data
 delivered in a structured format with standard vocabularies may also need less
 “cleanup” than typical EHR data.
 
-#### Providers
+#### Health Care Providers
 
 A way to give patients access to the potential benefit from participating in
 research studies and a reduction in staff time to support data requests, as
@@ -39,26 +39,22 @@ A method to empower their health care provider customers, to facilitate
 research, to participate in the development of stronger health care systems,
 and to meet EHR Incentive Program requirements for API-based patient access.
 
-### Pilot Program
-* [Participant Materials (Preview)](http://bit.ly/s4s-participant-materials-draft)
-* [Video](http://bit.ly/s4s-pilot-webinar-01) + [Slides](http://bit.ly/s4s-pilot-practices-webinar) from S4S Pilot Practices Webinar #1 (Background)
-* [Video](http://bit.ly/s4s-pilot-webinar-02) + [Slides](http://bit.ly/s4s-pilot-launch-webinar) from S4S Pilot Practices Webinar #2 (Launch Planning)
-* [Video](http://bit.ly/s4s-pilots-webinar-03-video) + [Slides](http://bit.ly/s4s-pilots-webinar-03-slides) from S4S Pilot Practices Webinar #3 (Launch Updates)
 
-### See also
+### S4S Pilot Program
+* [Collateral Materials](https://drive.google.com/open?id=19HfuC1oYGd6zh4vEBlJTx_3e26eUnZ_k)
+* [Pre-Launch Webinar Video](https://drive.google.com/file/d/13U4ybmSL0hKMaREUgNWAIRvaDCMqnZlp/view) + [Slides](http://bit.ly/s4s-pilots-webinar-04) (March 2018)
+
+### Technical Information
 
 * [S4S FHIR API Calls](./api-calls)
-* [Reference stack and demonstration](https://demo.syncfor.science/)
-* [Test Suite](https://tests.demo.syncfor.science/)
-* [Edit this page](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/index.md)
+* [S4S Reference Stack Demo](https://demo.syncfor.science/)
+* [S4S Test Suite](https://tests.demo.syncfor.science/)
 
 
-### News, Press, Blogs
+### Articles + Blogs
 
-* [President Obama gives a shout-out](https://youtu.be/0FeQHlpIIXk)
- * [Blog post at healthit.gov](https://www.healthit.gov/buzz-blog/health-innovation/nih-and-onc-launch-the-sync-for-science-pilot/)
- * [Article at healthcareitnews.com](http://www.healthcareitnews.com/news/nih-and-onc-announce-sync-science-pilot-enable-patients-donate-data-precision-medicine)
- * [Summary at hitconsultant.net](http://hitconsultant.net/2016/03/25/nih-onc-launch-sync-science-5-things-know/)
+* [Health Data Management.com Article](https://www.healthdatamanagement.com/news/sync-for-science-helping-patients-share-ehrs-with-researchers)
+* [Verily Blog](https://blog.verily.com/2018/03/sync-for-science-empowering-individuals.html)
 
 ### Contact
 
@@ -90,3 +86,6 @@ and to meet EHR Incentive Program requirements for API-based patient access.
 </form>
 
 <em>Sync for Science and S4S are trademarks of the U.S. Department of Health and Human Services</em>
+
+
+[Edit this page](https://github.com/sync-for-science/sync-for-science.github.io/edit/master/index.md)
