@@ -34,7 +34,7 @@ In order to create a client for interacting with the SMART EHR System, use the f
 
 ```
 POST /oauth/register HTTP/1.1
-Host: localhost:9000
+Host: portal.demo.syncfor.science
 Accept: application/json
 Data: client_id=TEST1234&client_secret=TESTSECRET123&client_name=TESTCLIENT&redirect_uris=https://tests.demo.syncfor.science/authorized/&scopes=launch/patient patient/*.read offline_access
 ```
@@ -78,7 +78,7 @@ If you want your application to mimic having an access token for a specific user
 
 ```
 POST /oauth/debug/token HTTP/1.1
-Host: localhost:9000
+Host: portal.demo.syncfor.science
 Accept: application/json
 ```
 
@@ -102,7 +102,7 @@ If you want to retrieve information about a token you have, you get call the /oa
 
 ```
 GET /oauth/debug/introspect?access_token=ea8e60e8-f0fe-4ecf-9008-1f9298633157 HTTP/1.1
-Host: localhost:9000
+Host: portal.demo.syncfor.science
 Accept: application/json
 ```
 
