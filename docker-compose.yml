@@ -5,3 +5,5 @@ services:
    image: syncforscience/s4shome
    ports:
     - "4000:4000"
+   volumes:
+     - "/Users/mtmcduffie/src/apps/sync-for-science.github.io:/srv/jekyll"

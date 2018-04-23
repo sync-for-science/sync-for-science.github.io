@@ -47,9 +47,9 @@ and to meet EHR Incentive Program requirements for API-based patient access.
 ### Technical Information
 
 * [S4S FHIR API Calls](./api-calls)
+* [S4S SMART Example Server Documetnatation](./proxy-api-calls)
 * [S4S Reference Stack Demo](https://demo.syncfor.science/)
 * [S4S Test Suite](https://tests.demo.syncfor.science/)
-
 
 ### Articles + Blogs
 

@@ -14,7 +14,7 @@ $(function () {
     });
 
     return {
-      'url': 'https://' + fields['Host'] + header[2],
+      'url': 'http://' + fields['Host'] + header[2],
       'method': header[1],
       'headers': {
         'Accept': fields['Accept']
