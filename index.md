@@ -56,7 +56,7 @@ EHR data.
 ### Recent Articles
 
 * [Sync for Science helping patients share EHRs with researchers](https://www.healthdatamanagement.com/news/sync-for-science-helping-patients-share-ehrs-with-researchers)
-* [Sync for Science – Empowering individuals to participate in health research] (https://blog.verily.com/2018/03/sync-for-science-empowering-individuals.html)
+* [Sync for Science – Empowering individuals to participate in health research](https://blog.verily.com/2018/03/sync-for-science-empowering-individuals.html)
 
 ### Contact
 
