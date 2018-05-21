@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## Sync for Science
-
 ### What is S4S?
 
 S4S is a national collaboration among electronic health record (EHR) vendors –
