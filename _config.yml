@@ -1,7 +1,7 @@
 # Site settings
 title: Sync For Science
-tag_text: Helping patients share EHR data with research
-description: technology to help patients share data with research
+tag_text: Helping patients share EHR data with researchers
+description: technology to help patients share data with researchers
 baseurl: ""
 font-awesome-include: true
 markdown: kramdown
