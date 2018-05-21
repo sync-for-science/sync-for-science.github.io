@@ -2,9 +2,9 @@
 layout: default
 ---
 
-### What is S4S?
+### What is Sync for Science (S4S)?
 
-S4S is a national collaboration among electronic health record (EHR) vendors –
+Sync for Science (S4S) is a national collaboration among electronic health record (EHR) vendors –
 including Allscripts, Cerner, eClinicalWorks, and Epic – and the National Institutes
 of Health (NIH), the Office of the National Coordinator for Health IT (ONC),
 and Harvard Medical School’s Department of Biomedical Informatics.
