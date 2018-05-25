@@ -54,7 +54,7 @@ h1 {
 
 @media (min-width: 30rem) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
   }
 }
