@@ -47,9 +47,10 @@ EHR data.
 * [S4S Test Suite](https://tests.demo.syncfor.science/)
 
 
-### S4S Pilot Program 2018 for the [All of Us Research Program](https://www.joinallofus.org/en)
+### S4S Pilot Program 2018 for the All of Us Research Program
 * Program [Collateral](https://drive.google.com/open?id=19HfuC1oYGd6zh4vEBlJTx_3e26eUnZ_k)
 * March 2018 [Video](https://drive.google.com/file/d/13U4ybmSL0hKMaREUgNWAIRvaDCMqnZlp/view) + [Presentation Slides](http://bit.ly/s4s-pilots-webinar-04)
+* All of Us Research Program [Landing Page](https://www.joinallofus.org/en)
 
 ### Recent Articles
 
