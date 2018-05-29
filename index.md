@@ -43,9 +43,9 @@ EHR data.
 ### For Developers
 
 * [S4S FHIR API Calls](./api-calls)
+* [S4S SMART Example Server Documetnatation](./proxy-api-calls)
 * [S4S Reference Stack Demo](https://demo.syncfor.science/)
 * [S4S Test Suite](https://tests.demo.syncfor.science/)
-
 
 ### S4S Pilot Program 2018 for the All of Us Research Program
 * Program [Collateral](https://drive.google.com/open?id=19HfuC1oYGd6zh4vEBlJTx_3e26eUnZ_k)
@@ -53,7 +53,6 @@ EHR data.
 * All of Us Research Program [Landing Page](https://www.joinallofus.org/en)
 
 ### Recent Articles
-
 * [Sync for Science helping patients share EHRs with researchers](https://www.healthdatamanagement.com/news/sync-for-science-helping-patients-share-ehrs-with-researchers)
 * [Sync for Science – Empowering individuals to participate in health research](https://blog.verily.com/2018/03/sync-for-science-empowering-individuals.html)
 
