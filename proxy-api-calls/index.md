@@ -88,7 +88,7 @@ https://portal.demo.syncfor.science/oauth/debug/token
 
 ```
 curl --request POST -H "Content-Type: application/json" \
-	 -d '{"client_id": "f098c69f-a58b-422c-8211-261f14373c36", "access_lifetime": 3600, "approval_expires": 1528376907, "scope": "patient/*.read launch/patient offline_access", "user_name": "daniel-adams", "patient_id": "smart-1288992"}' \
+	 -d '{"client_id": "f098c69f-a58b-422c-8211-261f14373c36", "access_lifetime": 3600, "approval_expires": 1528376907, "scope": "patient/*.read launch/patient offline_access", "username": "daniel-adams", "patient_id": "smart-1288992"}' \
 	 https://portal.demo.syncfor.science/oauth/debug/token
 ```
 
@@ -96,8 +96,8 @@ curl --request POST -H "Content-Type: application/json" \
 
 ```JSON
 {
-  "access_token": "13a5b8c2-ca89-4e3c-a741-3453a65477ff",
-  "refresh_token": "799f2464-372f-4e83-b31a-4be9fc7cdc32"
+  "access_token": "02290da3-9da8-4def-aa6e-c306945bcdf9",
+  "refresh_token": "9a71354c-3bad-4585-88ab-2f0c238db6c0"
 }
 ```
 
@@ -107,29 +107,28 @@ If you want to retrieve information about an access or refresh token you have, y
 
 ###### Requesting Token URL
 ```
-https://portal.demo.syncfor.science/oauth/debug/introspect/{% raw %}{{token}}{% endraw %}
+https://portal.demo.syncfor.science/oauth/debug/introspect?token={% raw %}{{token}}{% endraw %}
 ```
 
 ###### Request Example
 
 ```
-curl https://portal.demo.syncfor.science/oauth/debug/introspect/13a5b8c2-ca89-4e3c-a741-3453a65477ff
+curl https://portal.demo.syncfor.science/oauth/debug/introspect?token=02290da3-9da8-4def-aa6e-c306945bcdf9
 ```
 
 ###### Response
 
 ```JSON
 {
-  "access_token": "13a5b8c2-ca89-4e3c-a741-3453a65477ff",
-  "approval_expires": "Fri, 31 May 2019 15:41:08 GMT",
-  "expires": "Thu, 31 May 2018 16:41:08 GMT",
-  "refresh_token": "799f2464-372f-4e83-b31a-4be9fc7cdc32",
-  "scopes": [
-    "patient/*.read",
-    "launch/patient",
-    "offline_access"
-  ],
+  "access_expires": "Thu, 31 May 2018 22:48:43 GMT",
+  "access_token": "02290da3-9da8-4def-aa6e-c306945bcdf9",
+  "active": true,
+  "approval_expires": "Thu, 07 Jun 2018 13:08:27 GMT",
+  "client_id": "f098c69f-a58b-422c-8211-261f14373c36",
+  "refresh_token": "9a71354c-3bad-4585-88ab-2f0c238db6c0",
+  "scope": "patient/*.read launch/patient offline_access",
   "security_labels": [],
-  "token_type": "Bearer"
+  "token_type": "Bearer",
+  "username": "daniel-adams"
 }
 ```
