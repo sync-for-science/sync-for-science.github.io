@@ -43,7 +43,7 @@ EHR data.
 ### For Developers
 
 * [S4S FHIR API Calls](./api-calls)
-* [S4S SMART Example Server Documetnatation](./proxy-api-calls)
+* [S4S SMART Example Server Docs](./proxy-api-calls)
 * [S4S Reference Stack Demo](https://demo.syncfor.science/)
 * [S4S Test Suite](https://tests.demo.syncfor.science/)
 
