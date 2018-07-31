@@ -3,9 +3,19 @@ layout: default
 ---
 
 ### S4S Pilot Program 2018 for the All of Us Research Program
+
 * Program [Collateral](https://drive.google.com/open?id=19HfuC1oYGd6zh4vEBlJTx_3e26eUnZ_k)
+
 * March 2018 [Video](https://drive.google.com/file/d/13U4ybmSL0hKMaREUgNWAIRvaDCMqnZlp/view) + [Presentation Slides](http://bit.ly/s4s-pilots-webinar-04)
+
 * All of Us Research Program [Landing Page](https://www.joinallofus.org/en)
+
+
+* IRB Protocol (15-Jan-2018)+ Approval Letter
+* IRB Prtocol Amendment (24-May-2018) + Approval Letter
+
+* S4S Protocol for Non-HPO Sites (PDF)
+* S4S Protocol for HPO Sites (PDF)
 
 <img src="/images/AoU COB S4S Standard Brochure 041118.png"></img>
 <img src="/images/AoU S4S Brochure Generic 11Apr2018.png"></img>
