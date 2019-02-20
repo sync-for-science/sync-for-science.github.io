@@ -11,6 +11,10 @@ does not contain real patient data and you should never use it with real patient
 It is also ephemeral; we reset its state frequently as we redeploy our reference
 architecture, so you should not rely on it persisting client data.
 
+## Interactive demo
+
+[Download](./SMART.ipynb) an interactive Jupyter notebook which demonstrates the following concepts.
+
 ## Open FHIR Access
 
 If you want to explore FHIR without worrying about authentication you can use the /api/open-fhir/ endpoint of the SMART Server. Alternatively
