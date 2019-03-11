@@ -6,7 +6,7 @@ layout: page
 
 The API calls below show how to use S4S for sharing Clinical Data. You'll see each data type annotated with its [MU Common Clinical Data Set labels](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf) (#1-21). Note that we're currently not covering elements #16 (care team members), #18 (unique device identifiers), #19 (assessment and plan of treatment), #20 (goals) — which we believe is a reasonable scope limitation for the S4S pilots.
 
-The [Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) will help define these elements in more depth, and we'll build on that effort when additional implementation guidance is available.
+The APIs are designed for compatibility with the [Argonaut Project Data Query Implementation Guide](http://www.fhir.org/guides/argonaut/r2/), based on SMART on FHIR.
 
 {% include security.md %}
 {% include metadata.md %}
