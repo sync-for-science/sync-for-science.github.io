@@ -46,6 +46,7 @@ EHR data.
 * [S4S SMART Example Server Docs](./proxy-api-calls)
 * [S4S Reference Stack Demo](https://demo.syncfor.science/)
 * [S4S Test Suite](https://tests.demo.syncfor.science/)
+* [S4S Procure Data Collection App](https://github.com/sync-for-science/procure-wip)
 
 ### S4S Pilot Program 2018 for the All of Us Research Program
 * Program [Collateral](https://drive.google.com/open?id=19HfuC1oYGd6zh4vEBlJTx_3e26eUnZ_k)
